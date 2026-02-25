@@ -42,10 +42,6 @@ Aplikasi ini berisi 4 fitur utama, yaitu Menambahkan data minuman baru, Menampil
   Melakukan create pada form yang tersedia
 
   <img width="300" height="400" alt="Screenshot 2026-02-25 120705" src="https://github.com/user-attachments/assets/d62dcdda-fb76-4e56-93f0-5486e9e8c1ad" />
-
-  Setelah meng-klik button _simpan_, maka data minuman dengan nama 'Thai Tea' berhasil ditampilkan pada list menu.
-
-  ?????
   
 - Menampilkan data minuman (Read)
 
