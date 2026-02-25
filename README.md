@@ -30,11 +30,11 @@ Aplikasi ini berisi 4 fitur utama, yaitu Menambahkan data minuman baru, Menampil
 
   Pengguna dapat menambahkan menu minuman baru dengan mengisi form yang tersedia, seperti nama minuman, harga, level manis, dan ikon. Data yang diinput akan langsung tampil pada halaman utama dengan meng-klik button _(+)_ di sudut kanan bawah.
 
-  <img width="400" height="500" alt="Screenshot 2026-02-25 120853" src="https://github.com/user-attachments/assets/6e313026-0981-4d58-8de6-039cd36bd0c9" />
+  <img width="300" height="400" alt="Screenshot 2026-02-25 120853" src="https://github.com/user-attachments/assets/6e313026-0981-4d58-8de6-039cd36bd0c9" />
 
   Melakukan create pada form yang tersedia
 
-  <img width="400" height="500" alt="Screenshot 2026-02-25 120705" src="https://github.com/user-attachments/assets/d62dcdda-fb76-4e56-93f0-5486e9e8c1ad" />
+  <img width="300" height="400" alt="Screenshot 2026-02-25 120705" src="https://github.com/user-attachments/assets/d62dcdda-fb76-4e56-93f0-5486e9e8c1ad" />
 
   Setelah meng-klik button _simpan_, maka data minuman dengan nama 'Thai Tea' berhasil ditampilkan pada list menu.
 
@@ -68,9 +68,47 @@ Aplikasi ini berisi 4 fitur utama, yaitu Menambahkan data minuman baru, Menampil
   
   <img width="200" height="300" alt="Screenshot_1772022880" src="https://github.com/user-attachments/assets/e57971af-0aa9-4172-af61-d606e29dc381" />
 
-# ᰔ Struktur Folder
+# 📁 Struktur Folder Project
+```bash
+lib/
+├── models/
+│   └── drinks.dart        # Model data Drink
+├── pages/
+│   ├── cover_page.dart    # Halaman cover / splash
+│   ├── form_page.dart     # Halaman form input/edit
+│   └── home_page.dart     # Halaman utama
+└── main.dart              # Entry point aplikasi
+```
+
+Project dibagi menjadi dua package utama:
+1. Models
+
+   Berisi file _drink.dart_ yang digunakan untuk membuat model data minuman. Fungsinya: Menyimpan data minuman dalam bentuk object, digunakan untuk menampung data pada List di HomePage.
+
+2. Pages
+   - CoverPage
+
+     CoverPage adalah halaman pembuka aplikasi. Di halaman ini ditampilkan logo, nama toko, dan tombol untuk masuk ke aplikasi. Ketika tombol ditekan, pengguna akan berpindah ke HomePage menggunakan Navigator.push. Halaman ini menggunakan konsep StatelessWidget karena tampilannya tidak berubah-ubah, serta menerapkan navigasi antar halaman (Multi Page Navigation).
+
+   - HomePage
+    
+     HomePage merupakan halaman utama yang menampilkan daftar minuman. Di halaman ini, data disimpan dalam bentuk List dan dikelola secara langsung. Jika ada perubahan data, tampilan akan diperbarui menggunakan setState.
+
+     HomePage memiliki fitur lengkap seperti Create (menambah data melalui FloatingActionButton), Read (menampilkan data menggunakan GridView.builder), Update (mengedit data melalui tombol edit), dan Delete (menghapus data melalui tombol delete). Halaman ini menggunakan StatefulWidget karena datanya bisa berubah-ubah, serta menggunakan Navigator.push dan Navigator.pop untuk berpindah halaman.
+
+   - FormPage
+
+     FormPage adalah halaman yang digunakan untuk menambah atau mengedit data minuman. Halaman ini menggunakan Form dan TextFormField untuk menerima input dari pengguna. Setiap input akan divalidasi agar tidak boleh kosong. Jika halaman dibuka dalam mode edit, maka field akan otomatis terisi dengan data sebelumnya.
+
+     FormPage menggunakan GlobalKey untuk mengontrol form, TextEditingController untuk mengatur isi input, serta Navigator.pop(context, drink) untuk mengirim kembali data yang sudah diisi ke halaman sebelumnya.
+
+- main.dart
+
+  File main.dart merupakan titik awal dari aplikasi. File ini bertugas menjalankan aplikasi menggunakan runApp(), mengatur tema (theme) aplikasi, serta menentukan halaman pertama yang akan ditampilkan, yaitu CoverPage. Jadi, bisa dibilang main.dart adalah pusat awal saat aplikasi mulai dijalankan.
 
 # 📌 Widget yang Digunakan
+
+Widget adalah komponen dasar dalam Flutter yang digunakan untuk membangun tampilan dan struktur aplikasi.
 
 ## 🔹 Struktur Dasar
 
