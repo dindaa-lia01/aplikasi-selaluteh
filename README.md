@@ -21,6 +21,10 @@ Aplikasi ini dirancang sebagai sistem manajemen menu yang memungkinkan pengguna 
 Tampilan menu disajikan dalam bentuk grid agar terlihat seperti katalog produk, sehingga lebih menarik dan mudah dibaca. Aplikasi ini juga menerapkan konsep Object-Oriented Programming (OOP) dengan menggunakan model data serta pengelolaan state menggunakan StatefulWidget.
 
 # ᰔ Tampilan UI
+<img width="400" height="700" alt="Screenshot_1772022897" src="https://github.com/user-attachments/assets/c9f26153-2f0a-402c-bbc2-3b8ae51acd3b" />
+
+<img width="1080" height="2340" alt="Screenshot_1771992870" src="https://github.com/user-attachments/assets/108b5508-ad77-4144-b23e-828a2e6a5f38" />
+
 
 # ᰔ Fitur Utama
 
@@ -52,9 +56,9 @@ Aplikasi ini berisi 4 fitur utama, yaitu Menambahkan data minuman baru, Menampil
 
   Sebelum data harga di update:
 
-   <img width="200" height="300" alt="Screenshot_1771992992" src="https://github.com/user-attachments/assets/81f1e521-efe8-4b40-b001-ed4fe5618558" />
+   <img width="200" height="300" alt="Screenshot_1771992992" src="https://github.com/user-attachments/assets/6c37af56-3a96-4736-964b-46a6f61405a1" />
 
-  Mengupdate data harga pada form yang tersedia:
+  Mengupdate data harga dari Rp12.000 menjadi Rp16.000 pada form yang tersedia:
   
   <img width="400" height="700" alt="Screenshot_1772022711" src="https://github.com/user-attachments/assets/bb5457d3-38a7-454b-8d54-32bb15347125" />
 
@@ -180,7 +184,46 @@ Widget adalah komponen dasar dalam Flutter yang digunakan untuk membangun tampil
 
 ---
 
-# ᰔ Navigasi
+# ᰔ Navigasi Halaman (Multi Page Navigation)
+
+Aplikasi Selalu Teh menggunakan sistem navigasi untuk berpindah dari satu halaman ke halaman lainnya. Navigasi ini memungkinkan pengguna untuk membuka halaman berbeda seperti halaman utama, halaman form tambah data, maupun halaman edit data. Perpindahan antar halaman dilakukan menggunakan Navigator dan MaterialPageRoute yang merupakan bagian dari sistem navigasi di Flutter.
+
+1. Navigasi dari CoverPage ke HomePage
+
+   Navigator.push() digunakan untuk berpindah dari halaman pembuka (CoverPage) ke halaman utama (HomePage) saat tombol “Lihat Menu” ditekan.
+
+   <img width="434" height="143" alt="image" src="https://github.com/user-attachments/assets/181bfeaf-b927-4c2d-9063-960f15622004" />
+
+2. Navigasi dari HomePage ke FormPage (Tambah Data)
+
+   Navigator.push() digunakan untuk membuka halaman FormPage ketika tombol tambah (+) ditekan, sehingga pengguna dapat mengisi data minuman baru.
+
+   <img width="585" height="111" alt="image" src="https://github.com/user-attachments/assets/6099ba88-159f-4ceb-8682-c981aa843db1" />
+
+3. Navigasi untuk Edit Data
+
+   Navigator.push() juga digunakan untuk membuka FormPage dalam mode edit dengan membawa data minuman yang dipilih agar bisa diperbarui.
+
+   <img width="490" height="149" alt="image" src="https://github.com/user-attachments/assets/d6b79caa-5392-41c2-9df1-74887af29dff" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
