@@ -69,8 +69,78 @@ Aplikasi ini berisi 4 fitur utama, yaitu Menambahkan data minuman baru, Menampil
   <img width="200" height="300" alt="Screenshot_1772022880" src="https://github.com/user-attachments/assets/e57971af-0aa9-4172-af61-d606e29dc381" />
 
 # ᰔ Struktur Folder
-# ᰔ Widget
 
+# 📌 Widget yang Digunakan
+
+## 🔹 Struktur Dasar
+
+| Widget | Kegunaan |
+|--------|----------|
+| `MaterialApp` | Widget utama untuk menjalankan aplikasi dan mengatur tema serta halaman awal. |
+| `Scaffold` | Kerangka dasar halaman yang menyediakan AppBar, body, dan FloatingActionButton. |
+| `AppBar` | Menampilkan judul dan navigasi di bagian atas halaman. |
+| `SafeArea` | Mengatur agar konten tidak tertutup oleh notch atau sistem UI perangkat. |
+
+---
+
+## 🔹 Layout
+
+| Widget | Kegunaan |
+|--------|----------|
+| `Column` | Menyusun widget secara vertikal (atas ke bawah). |
+| `Row` | Menyusun widget secara horizontal (kiri ke kanan). |
+| `Center` | Memposisikan widget agar berada di tengah. |
+| `Padding` | Memberikan jarak di sekitar widget. |
+| `SizedBox` | Memberikan jarak atau ukuran tetap pada widget. |
+| `Container` | Widget serbaguna untuk mengatur ukuran, warna, dan dekorasi. |
+| `GridView.builder` | Menampilkan data dalam bentuk grid/katalog secara dinamis. |
+| `Spacer` | Memberikan ruang kosong fleksibel di dalam Column atau Row. |
+
+---
+
+## 🔹 Input & Form
+
+| Widget | Kegunaan |
+|--------|----------|
+| `Form` | Mengelompokkan beberapa field input menjadi satu kesatuan form. |
+| `GlobalKey<FormState>` | Digunakan untuk mengontrol dan memvalidasi form. |
+| `TextFormField` | Input teks dengan fitur validasi. |
+| `TextEditingController` | Mengontrol dan mengambil nilai dari input field. |
+| `ElevatedButton` | Tombol utama untuk menyimpan atau memperbarui data. |
+
+---
+
+## 🔹 Navigasi
+
+| Widget / Method | Kegunaan |
+|-----------------|----------|
+| `Navigator.push` | Berpindah ke halaman baru. |
+| `Navigator.pop` | Kembali ke halaman sebelumnya atau mengirim data kembali. |
+| `MaterialPageRoute` | Mengatur transisi halaman dengan gaya Material Design. |
+
+---
+
+## 🔹 Tombol & Aksi
+
+| Widget | Kegunaan |
+|--------|----------|
+| `FloatingActionButton` | Tombol utama untuk menambahkan data (Create). |
+| `IconButton` | Tombol berbentuk ikon untuk edit dan delete. |
+| `Icon` | Menampilkan ikon visual pada tombol atau tampilan. |
+
+---
+
+## 🔹 Styling
+
+| Widget / Class | Kegunaan |
+|----------------|----------|
+| `BoxDecoration` | Mengatur dekorasi seperti warna dan bayangan pada Container. |
+| `BorderRadius` | Membuat sudut widget menjadi melengkung. |
+| `BoxShadow` | Memberikan efek bayangan pada widget. |
+| `TextStyle` | Mengatur gaya teks seperti ukuran dan ketebalan. |
+| `ThemeData` | Mengatur tema keseluruhan aplikasi seperti warna utama. |
+
+---
 
 # ᰔ Navigasi
 
