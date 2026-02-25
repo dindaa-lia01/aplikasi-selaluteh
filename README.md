@@ -22,9 +22,35 @@ Tampilan menu disajikan dalam bentuk grid agar terlihat seperti katalog produk, 
 
 # Fitur Utama
 
+Aplikasi ini berisi 4 fitur utama, yaitu Menambahkan data minuman baru, Menampilkan data minuman, Mengedit data minuman yang sudah ada, Menghapus data minuman
+
 - Menambahkan data minuman baru (Create)
+
+  Pengguna dapat menambahkan menu minuman baru dengan mengisi form yang tersedia, seperti nama minuman, harga, level manis, dan ikon. Data yang diinput akan langsung tampil pada halaman utama.
+
+  Klik 
+
+  <img width="470" height="554" alt="Screenshot 2026-02-25 120853" src="https://github.com/user-attachments/assets/6e313026-0981-4d58-8de6-039cd36bd0c9" />
+
+  <img width="517" height="636" alt="Screenshot 2026-02-25 120705" src="https://github.com/user-attachments/assets/d62dcdda-fb76-4e56-93f0-5486e9e8c1ad" />
   
+- Menampilkan data minuman (Read)
+
+  Aplikasi menampilkan seluruh daftar menu minuman dalam bentuk grid/katalog pada halaman utama lengkap dengan informasi detailnya.
   
-- Menampilkan data minuman (Read).
-- Mengedit data minuman yang sudah ada (Update).
-- Menghapus data minuman (Delete).
+- Mengedit data minuman yang sudah ada (Update)
+
+  Pengguna dapat mengubah data minuman yang sudah ada melalui tombol edit. Data lama akan ditampilkan kembali di form, lalu dapat diperbarui sesuai kebutuhan.
+
+- Menghapus data minuman (Delete)
+
+  Pengguna dapat menghapus menu minuman dari daftar dengan menekan tombol delete, sehingga data tersebut tidak lagi ditampilkan.
+
+
+
+
+
+
+
+
+  
