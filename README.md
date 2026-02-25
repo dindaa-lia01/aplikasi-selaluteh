@@ -23,8 +23,11 @@ Tampilan menu disajikan dalam bentuk grid agar terlihat seperti katalog produk, 
 # ᰔ Tampilan UI
 <img width="400" height="700" alt="Screenshot_1772022897" src="https://github.com/user-attachments/assets/c9f26153-2f0a-402c-bbc2-3b8ae51acd3b" />
 
-<img width="1080" height="2340" alt="Screenshot_1771992870" src="https://github.com/user-attachments/assets/108b5508-ad77-4144-b23e-828a2e6a5f38" />
+<img width="400" height="700" alt="Screenshot_1771992870" src="https://github.com/user-attachments/assets/108b5508-ad77-4144-b23e-828a2e6a5f38" />
 
+<img width="400" height="700" alt="image" src="https://github.com/user-attachments/assets/5d240ada-e4d0-4089-bcdd-9b81ddb6f7f8" />
+
+<img width="400" height="700" alt="image" src="https://github.com/user-attachments/assets/b1a41458-3cc3-4a57-ae7b-56ddf4d4a881" />
 
 # ᰔ Fitur Utama
 
